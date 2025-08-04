@@ -1,6 +1,11 @@
 import React, { forwardRef, useImperativeHandle } from 'react';
-import { type ImageSourcePropType, StyleSheet, View } from 'react-native';
-import { Image } from 'expo-image';
+import {
+  type ImageSourcePropType,
+  StyleSheet,
+  View,
+  Image,
+} from 'react-native';
+// import { Image } from 'expo-image';
 import Animated, {
   useAnimatedStyle,
   useSharedValue,
@@ -77,7 +82,7 @@ const Sprite = forwardRef<SpriteRef, SpriteProps>((props, ref) => {
       <AnimatedImage
         source={source}
         style={animatedStyle}
-        contentFit="contain"
+        // contentFit="contain"
       />
     </View>
   );

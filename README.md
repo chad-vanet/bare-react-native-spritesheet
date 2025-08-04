@@ -2,6 +2,8 @@
 
 ## Description
 
+_This fork swaps expo-image from @kaizer433/react-native-spritesheet to a react native bare image._
+
 This library provides `Sprite` and `AnimatedSprite` components for React Native applications, utilizing `react-native-reanimated` and `expo-image` for smooth and efficient sprite animations. It's designed to be user-friendly and performant (60FPS), making it ideal for various applications like games and dynamic UIs.
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
@@ -21,13 +23,13 @@ This library provides `Sprite` and `AnimatedSprite` components for React Native 
 To use the components in your project, ensure you have React Native set up. Install the library via npm:
 
 ```bash
-npm install @kaizer433/react-native-spritesheet
+npm install @chad-vanet/bare-react-native-spritesheet
 ```
 
 Or via yarn:
 
 ```bash
-yarn add @kaizer433/react-native-spritesheet
+yarn add @chad-vanet/bare-react-native-spritesheet
 ```
 
 ## Usage
@@ -37,7 +39,7 @@ yarn add @kaizer433/react-native-spritesheet
 Import the `Sprite` component from the library and use it in your React Native app:
 
 ```javascript
-import { Sprite } from '@kaizer433/react-native-spritesheet';
+import { Sprite } from '@chad-vanet/bare-react-native-spritesheet';
 
 // Your component
 function MyComponent() {
@@ -59,7 +61,7 @@ function MyComponent() {
 Import the `AnimatedSprite` component for more complex animations:
 
 ```javascript
-import { AnimatedSprite } from '@kaizer433/react-native-spritesheet';
+import { AnimatedSprite } from '@chad-vanet/bare-react-native-spritesheet';
 
 function MyAnimatedComponent() {
   return (
