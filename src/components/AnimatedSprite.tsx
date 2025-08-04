@@ -150,6 +150,7 @@ const AnimatedSprite = forwardRef<AnimatedSprite, AnimatedSpriteProps>(
         ],
       };
     });
+
     return (
       <View
         key={`animation-block-${width}-${height}`}
