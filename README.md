@@ -23,13 +23,13 @@ This library provides `Sprite` and `AnimatedSprite` components for React Native 
 To use the components in your project, ensure you have React Native set up. Install the library via npm:
 
 ```bash
-npm install @chad-vanet/bare-react-native-spritesheet
+npm install bare-react-native-spritesheet
 ```
 
 Or via yarn:
 
 ```bash
-yarn add @chad-vanet/bare-react-native-spritesheet
+yarn add bare-react-native-spritesheet
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ yarn add @chad-vanet/bare-react-native-spritesheet
 Import the `Sprite` component from the library and use it in your React Native app:
 
 ```javascript
-import { Sprite } from '@chad-vanet/bare-react-native-spritesheet';
+import { Sprite } from 'bare-react-native-spritesheet';
 
 // Your component
 function MyComponent() {
@@ -61,7 +61,7 @@ function MyComponent() {
 Import the `AnimatedSprite` component for more complex animations:
 
 ```javascript
-import { AnimatedSprite } from '@chad-vanet/bare-react-native-spritesheet';
+import { AnimatedSprite } from 'bare-react-native-spritesheet';
 
 function MyAnimatedComponent() {
   return (
