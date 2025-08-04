@@ -1,6 +1,6 @@
 {
   "name": "bare-react-native-spritesheet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bare React Native SpriteSheet",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
